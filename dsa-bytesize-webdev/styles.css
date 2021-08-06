@@ -1,0 +1,18 @@
+.whole-body {
+    font-family: "Arial";
+    background-color: grey;
+}
+
+.white {
+    font-size: 20px;
+    background-color:white;
+    text-align: center;
+}
+
+.blueviolet {
+    background-color: blueviolet;
+}
+
+.purple {
+    background-color: purple;
+}

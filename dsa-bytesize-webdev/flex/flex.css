@@ -1,0 +1,13 @@
+.my-flex {
+    width: 20vw;
+    height: 80vw;
+    background-color: light blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.my-flex-child {
+    height: 100px;
+    background-color: pink;
+}

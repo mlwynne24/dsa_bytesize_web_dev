@@ -1,0 +1,57 @@
+.background {
+  background-image: linear-gradient(to bottom, teal, skyblue);
+  width: 100vw;
+  height: 100vw;
+  display: grid;
+  grid-template-areas: ". . ."
+                       ". main .";
+  grid-template-columns: 1fr 8fr 1fr;
+  grid-template-rows: 1fr 40fr;
+}
+
+.main-area {
+  grid-area: main;
+  background-color: whitesmoke;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  border-radius: 15px;
+}
+
+.main-left {
+  padding-top: 30px;
+  padding-right: 30px;
+  padding-left: 28px;
+}
+
+.favourites {
+  padding-top: 15px;
+}
+
+.whole-body {
+  font-family: "Muli", sans-serif;
+  color: #333;
+  position:absolute;
+  top:0px;
+  right:0px;
+  bottom:0px;
+  left:0px;
+}
+
+.header {
+  font-size: 35px;
+  font-weight: 550;
+}
+
+.header-2 {
+  padding-top: 10px;
+  padding-bottom: 20px;
+  font-size: 20px;
+  font-weight: 550;
+}
+
+.favourites {
+  background-color: rgb(235, 233, 233);
+  padding-left: 28px;
+  border-bottom-right-radius: 15px;
+  border-top-right-radius: 15px;
+}
